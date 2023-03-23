@@ -3,6 +3,11 @@ h1, p {
 }
 body {
   overflow: hidden;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #FFF;
 }
 .App {
   font-family: sans-serif;

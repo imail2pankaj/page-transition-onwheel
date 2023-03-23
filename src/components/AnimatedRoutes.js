@@ -10,6 +10,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
+import NoVideo from "../pages/NoVideo";
 
 export default function AnimatedRoutes() {
   const location = useLocation();
@@ -18,6 +19,7 @@ export default function AnimatedRoutes() {
     <AnimatePresence>
       <Routes location={location} key={location.pathname}>
         <Route index path="/" element={<Main />} />
+        <Route path="/no-video" element={<NoVideo />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/work" element={<Work />} />

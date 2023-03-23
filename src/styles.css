@@ -1,0 +1,46 @@
+h1, p {
+  font-family: Lato;
+}
+body {
+  overflow: hidden;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.aboutme--top {
+  background-color: blue;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+.skills--background {
+  background-color: darkgreen;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+.main--container {
+  background-color: darkmagenta;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+.work--top {
+  background-color: darkgray;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
